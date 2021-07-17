@@ -1,0 +1,27 @@
+{
+  "name": "18-nosql",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmcguire6377/friend-hub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vmcguire6377/friend-hub/issues"
+  },
+  "homepage": "https://github.com/vmcguire6377/friend-hub#readme"
+}
