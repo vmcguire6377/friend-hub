@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+//const friendSchema = require('./friend');
 
 const userSchema = new Schema({
     userName: {
@@ -16,7 +17,8 @@ const userSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now
-    }
+    },
+    //friends: [friendSchema],
 })
 
 // create the User model using the userSchema
